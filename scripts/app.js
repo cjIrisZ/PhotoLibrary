@@ -1,4 +1,4 @@
-var app = angular.module("miniFlickr", ['akoenig.deckgrid']);
+var app = angular.module("miniFlickr", ['akoenig.deckgrid', 'me-lazyload']);
 
 app.controller("PhotoController", ["$http", "$scope", "$filter", function ($http, $scope, $filter) {
     $http.get("/api/v1/photos")
