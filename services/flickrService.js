@@ -1,6 +1,7 @@
 var flickrAPI = require('flickrapi');
 var flickrTokens = {
-    api_key: "5c677838fb2ce00e07d0058cdbf02e11"
+    // put flickr API here
+    api_key: ""
 };
 
 var recentPhotos = [];
